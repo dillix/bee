@@ -8,3 +8,5 @@ regions:
   content: Content
   sidebar_first: 'Sidebar first'
   footer: Footer
+libraries:
+  - bee/global-styling
