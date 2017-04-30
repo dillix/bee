@@ -4,7 +4,8 @@
   "description": "Drupal 8 webpack theme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AchillesKal/bee/issues"
   },
-  "homepage": "https://github.com/AchillesKal/bee#readme"
+  "homepage": "https://github.com/AchillesKal/bee#readme",
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  }
 }
