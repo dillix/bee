@@ -1,0 +1,10 @@
+name: Bee
+type: theme
+description: 'A drupal 8 base theme that uses webpack'
+core: 8.x
+base theme: classy
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
